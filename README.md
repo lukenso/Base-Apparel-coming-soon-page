@@ -18,7 +18,7 @@ This layout looks simple enough, but there are some interesting details to it th
 ## Resources
 
 - Challange URL: [Click here](#)
-- Live Site URL: [Click here](#)
+- Live Site URL: [Click here](https://lukenso.github.io/Base-Apparel-coming-soon-page/)
 ## Author
 
 - LinkedIn - [Luka Koridze](https://www.linkedin.com/in/luka-koridze-4397571a4/)
