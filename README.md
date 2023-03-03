@@ -17,7 +17,7 @@ This layout looks simple enough, but there are some interesting details to it th
 
 ## Resources
 
-- Challange URL: [Click here](#)
+- Challange URL: [Click here](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0/hub)
 - Live Site URL: [Click here](https://lukenso.github.io/Base-Apparel-coming-soon-page/)
 ## Author
 
