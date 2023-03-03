@@ -1,0 +1,206 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+    height: 800px;
+}
+
+.main-logo{
+    height: 20.89px;
+    margin: 32px;
+}
+
+.hero-mobile{
+    margin-top: 32px;
+}
+
+.hero-desktop{
+    display: none;
+}
+
+h1{
+    margin-top: 64px;
+    color: #CE9898;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 10.83px;
+    text-align: center;
+}
+
+h2{
+    width: 311px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 10.83px;
+    text-align: center;
+    margin-left: 32px;
+    color: #423A3A;
+}
+
+.fellow{
+    color: #CE9898;
+    margin-top: 16px;
+    width: 311px;
+    text-align: center;
+    margin-left: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.email-mobile{
+    width: 311px;
+    height: 48px;
+    border-radius: 28px;
+    opacity: 50%;
+    border: 1px solid #CE9898;
+    margin-top: 32px;
+    margin-left: 32px;
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+    position: relative;
+    padding-left: 24px;
+}
+
+::placeholder {
+    color: #CE9898;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    
+    opacity: 50%;
+  }
+
+  .enter{
+    width: 64px;
+    height: 48px;
+    border-radius: 28px;
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+    border-style: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -64px;
+    margin-top: 32px;
+  }
+
+  .enter svg{
+    margin-left: 22px;
+  }
+
+  #email-error{
+    color: #F96464;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    margin-left: 56px;
+    margin-top: 8px;
+    position: absolute;
+  }
+
+  input[type="text"].invalid {
+    border: 2px solid #F96464;
+  }
+
+  .error-icon{
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 43px;
+    display: none;
+  }
+
+  .invalid + .error-icon {
+    display: inline-block;
+  }
+
+  @media screen and (min-width: 1440px){
+    body {
+        width: 100%;
+        background: url("images/bg-pattern-desktop.svg"),
+        linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+        background-size: cover;
+        overflow-y: hidden;
+    }
+
+    .main-logo{
+        height: 33px;
+        margin-left: 165px;
+        margin-top: 75px;
+    }
+
+    .hero-mobile{
+        display: none;
+    }
+
+    .hero-desktop{
+        display: block;
+        float: right;
+        margin-top: -140px;
+        height: 800px;
+    }
+
+    h1{
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: 17.32px;
+        margin-left: 165px;
+        margin-top: 137px;
+        text-align: left;
+    }
+
+    h2{
+        margin-left: 165px;
+        width: 444px;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 71px;
+        letter-spacing: 17.32px;
+        text-align: left;
+    }
+
+    .fellow{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        width: 444px;
+        text-align: left;
+        margin-top: 32px;
+        margin-left: 166px;
+    }
+
+    .email-mobile{
+        width: 445px;
+        height: 56px;
+        margin-left: 165px;
+        margin-top: 40px;
+    }
+
+    .enter{
+        width: 100px;
+        height: 56px;
+        margin-top: 40px;
+        margin-left: -100px;
+        font-size: 16px;
+    }
+
+    .enter svg{
+        margin-left: 40px;
+    }
+
+  #email-error{
+    margin-left: 190px;
+    line-height: 28px;
+  }
+
+  .error-icon{
+    margin-top: 57px;
+    margin-left: -140px;
+  }
+
+  .enter:hover{
+    cursor: pointer;
+    background: hsl(0, 80%, 86%);
+  }
+}
