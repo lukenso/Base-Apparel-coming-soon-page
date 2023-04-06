@@ -11,7 +11,7 @@ This layout looks simple enough, but there are some interesting details to it th
 - Responsive Design
 - JavaScript (Email validation)
 
-## Designed for ony two devices 
+## Designed for only two devices 
 - Mobile (375px)
 - Desktop(1440px)
 
