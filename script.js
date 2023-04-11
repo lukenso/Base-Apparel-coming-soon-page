@@ -1,6 +1,6 @@
 function validateEmail() {
-    var email = document.getElementById("email").value;
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const email = document.getElementById("email").value;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (emailRegex.test(email)) {
       document.getElementById("email").classList.remove("invalid");
       document.getElementById("email-error-icon").style.display = "none";
